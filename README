@@ -1,0 +1,7 @@
+Introduce
+	Extend the python module http.server simply to support IPv6.
+
+Usage
+	python3 ip6server.py [port]
+	the default port is 8000, the same as http.server module.
+	It would open a http server that listen both IPv4 and IPv6 Address to share the current folder.
